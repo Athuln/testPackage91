@@ -3,8 +3,8 @@
   "type": "package",
   "blockId": "ybX13a_liJsftNIp4pfkP",
   "source": {
-    "https": null,
-    "ssh": null,
+    "https": "https://github.com/Athuln/testPackage91.git",
+    "ssh": "git@github.com:Athuln/testPackage91.git",
     "branch": "block_testPackage91"
   },
   "parentBlockIDs": [],
