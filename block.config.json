@@ -1,0 +1,23 @@
+{
+  "blockId": "7ousf_jDUn9p-hceGcl3-",
+  "name": "testPackage91Pack",
+  "type": "package",
+  "source": {
+    "https": "https://github.com/Athuln/testPackage91.git",
+    "ssh": "git@github.com:Athuln/testPackage91.git",
+    "branch": "block_testPackage91Pack"
+  },
+  "parentBlockIDs": [
+    "ybX13a_liJsftNIp4pfkP"
+  ],
+  "repoType": "mono",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "isPublic": true,
+  "dependencies": {
+    "testFunction2": {
+      "directory": "testFunction2"
+    }
+  }
+}
