@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    working_dir: /app/preview
+    command: >
+      sh -c "bb start -bo -env preview && tail -f /dev/null"
+    env_file:
+      - .env.function.preview
+      - .env.view.preview
+    ports:
+      - 5000:5000
+    volumes:
+      - ./:/app/preview
+      - /usr/share/container_build:/app/preview/._bb_/container_build
+      - /usr/share/elements_build:/app/preview/._bb_/elements_emulator/dist
